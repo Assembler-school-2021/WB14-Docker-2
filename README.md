@@ -62,3 +62,5 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 ```
 
 > Pregunta 3: dirigete a la pestaña App templates. Verás que tiene plantillas de ejemplo, escoge wordpress y customízala. Crea un subdominio nuevo en cloudflare para este stack que apunte igual a la IP del master donde está traefik. En este punto debes tener todos los conocimientos necesarios para lanzar el stack y que funcione. Recuerda que traefik enruta usando labels.
+
+> Pregunta 4 : cuando todo funcione, busca la forma de escalar los frontales de wordpress a 2 instancias y comprueba que repartes la carga.
